@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button layoutX="37.0" layoutY="275.0" mnemonicParsing="false" onAction="#onClickMethod" prefHeight="37.0" prefWidth="88.0" text="Решить">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="149.0" layoutY="275.0" mnemonicParsing="false" onAction="#onClickMethodvtoroy" prefHeight="37.0" prefWidth="88.0" text="Очистить">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="closeButton" layoutX="497.0" layoutY="275.0" mnemonicParsing="false" onAction="#Vihod" prefHeight="37.0" prefWidth="78.0" text="Выход">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="37.0" layoutY="72.0" text="X =">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="139.0" text="A =">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="201.0" text="B =">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="237.0" layoutY="257.0" prefHeight="55.0" prefWidth="244.0" text="При x=7, А и В не могут одновременно равняться нулю" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="text1" layoutX="66.0" layoutY="68.0">
+
+            <Font size="14.0" />
+         </TextField>
+      <TextField fx:id="text2" layoutX="66.0" layoutY="135.0">
+
+            <Font size="14.0" />
+         </TextField>
+      <TextField fx:id="text3" layoutX="68.0" layoutY="198.0">
+
+            <Font size="14.0" />
+         </TextField>
+      <Label layoutX="40.0" layoutY="352.0" prefHeight="25.0" prefWidth="43.0" text="Ответ:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="text4" layoutX="105.0" layoutY="352.0" prefHeight="25.0" prefWidth="470.0">
+
+            <Font size="14.0" />
+         </TextField>
+      <ImageView fitHeight="160.0" fitWidth="314.0" layoutX="250.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Формула.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
